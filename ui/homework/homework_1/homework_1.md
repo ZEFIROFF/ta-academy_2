@@ -15,6 +15,6 @@ yarn tslint
 ```sh
 yarn eslint
 ```
-- Add your name in [homework_1_name.md](homework_1_name.md)
+- Add your name in [homework_1_name.md](homework_1_zefiorff.md)
 - Fix type in [test1.ts](test1.ts)
 - Create pull request 

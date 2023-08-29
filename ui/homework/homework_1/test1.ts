@@ -20,14 +20,14 @@ const users: Person[] = [
   },
   {
     name: 'Batman',
-    age: 'unknown',
+    age: 18,
     isSuperHero: true,
     occupation: 'vigilante',
   },
 ];
 
 function logPerson(user: Person) {
-  console.log(` - ${user.name}, ${user.age}`);
+  console.log(` - ${user?.name}, ${user?.age}`);
 }
 
 users.forEach(logPerson);
